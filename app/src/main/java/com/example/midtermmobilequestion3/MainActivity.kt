@@ -1,4 +1,4 @@
-package com.example.callerapp
+package com.example.midtermmobilequestion3
 
 import android.content.Intent
 import android.os.Bundle
@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
             intent.type = "text/plain"
             intent.putExtra("USER_NAME", name)
             intent.putExtra("USER_AGE", age)
-            intent.setClassName("com.example.calculatorapp", "com.example.calculatorapp.MainActivity")
+            intent.setClassName("com.example.midtermquestion1", "com.example.midtermquestion1.MainActivity")
             startActivity(intent)
         }
 
@@ -38,7 +38,7 @@ class MainActivity : AppCompatActivity() {
             intent.type = "text/plain"
             intent.putExtra("USER_NAME", name)
             intent.putExtra("USER_AGE", age)
-            intent.setClassName("com.example.spinnerapp", "com.example.spinnerapp.MainActivity")
+            intent.setClassName("com.example.midtermquestion2", "com.example.midtermquestion2.MainActivity")
             startActivity(intent)
         }
     }
